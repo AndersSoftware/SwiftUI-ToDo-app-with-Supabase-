@@ -6,41 +6,56 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		21B730C52DEC733F00DE711E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 21B730C42DEC733F00DE711E /* Supabase */; };
+		21B730C72DEC737600DE711E /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 21B730C62DEC737600DE711E /* Auth */; };
+		21B730C92DEC737600DE711E /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 21B730C82DEC737600DE711E /* Functions */; };
+		21B730CB2DEC737600DE711E /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 21B730CA2DEC737600DE711E /* PostgREST */; };
+		21B730CD2DEC737600DE711E /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 21B730CC2DEC737600DE711E /* Realtime */; };
+		21B730CF2DEC737600DE711E /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 21B730CE2DEC737600DE711E /* Storage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		21BBE20F2DE3AB930050B61F /* TodoTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FACC582DD233AB0045308B /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		21BBE2112DE3AB930050B61F /* TodoTutorial */ = {
+		21FACC5A2DD233AB0045308B /* TodoListApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TodoTutorial;
+			path = TodoListApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21BBE20C2DE3AB930050B61F /* Frameworks */ = {
+		21FACC552DD233AB0045308B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B730CF2DEC737600DE711E /* Storage in Frameworks */,
+				21B730CB2DEC737600DE711E /* PostgREST in Frameworks */,
+				21B730C92DEC737600DE711E /* Functions in Frameworks */,
+				21B730C72DEC737600DE711E /* Auth in Frameworks */,
+				21B730CD2DEC737600DE711E /* Realtime in Frameworks */,
+				21B730C52DEC733F00DE711E /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21BBE2062DE3AB930050B61F = {
+		21FACC4F2DD233AB0045308B = {
 			isa = PBXGroup;
 			children = (
-				21BBE2112DE3AB930050B61F /* TodoTutorial */,
-				21BBE2102DE3AB930050B61F /* Products */,
+				21FACC5A2DD233AB0045308B /* TodoListApp */,
+				21FACC592DD233AB0045308B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21BBE2102DE3AB930050B61F /* Products */ = {
+		21FACC592DD233AB0045308B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21BBE20F2DE3AB930050B61F /* TodoTutorial.app */,
+				21FACC582DD233AB0045308B /* TodoListApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +63,73 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21BBE20E2DE3AB930050B61F /* TodoTutorial */ = {
+		21FACC572DD233AB0045308B /* TodoListApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21BBE21D2DE3AB950050B61F /* Build configuration list for PBXNativeTarget "TodoTutorial" */;
+			buildConfigurationList = 21FACC662DD233AD0045308B /* Build configuration list for PBXNativeTarget "TodoListApp" */;
 			buildPhases = (
-				21BBE20B2DE3AB930050B61F /* Sources */,
-				21BBE20C2DE3AB930050B61F /* Frameworks */,
-				21BBE20D2DE3AB930050B61F /* Resources */,
+				21FACC542DD233AB0045308B /* Sources */,
+				21FACC552DD233AB0045308B /* Frameworks */,
+				21FACC562DD233AB0045308B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				21BBE2112DE3AB930050B61F /* TodoTutorial */,
+				21FACC5A2DD233AB0045308B /* TodoListApp */,
 			);
-			name = TodoTutorial;
+			name = TodoListApp;
 			packageProductDependencies = (
+				21B730C42DEC733F00DE711E /* Supabase */,
+				21B730C62DEC737600DE711E /* Auth */,
+				21B730C82DEC737600DE711E /* Functions */,
+				21B730CA2DEC737600DE711E /* PostgREST */,
+				21B730CC2DEC737600DE711E /* Realtime */,
+				21B730CE2DEC737600DE711E /* Storage */,
 			);
-			productName = TodoTutorial;
-			productReference = 21BBE20F2DE3AB930050B61F /* TodoTutorial.app */;
+			productName = TodoListApp;
+			productReference = 21FACC582DD233AB0045308B /* TodoListApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21BBE2072DE3AB930050B61F /* Project object */ = {
+		21FACC502DD233AB0045308B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					21BBE20E2DE3AB930050B61F = {
+					21FACC572DD233AB0045308B = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 21BBE20A2DE3AB930050B61F /* Build configuration list for PBXProject "TodoTutorial" */;
+			buildConfigurationList = 21FACC532DD233AB0045308B /* Build configuration list for PBXProject "TodoListApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 21BBE2062DE3AB930050B61F;
+			mainGroup = 21FACC4F2DD233AB0045308B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 21BBE2102DE3AB930050B61F /* Products */;
+			productRefGroup = 21FACC592DD233AB0045308B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21BBE20E2DE3AB930050B61F /* TodoTutorial */,
+				21FACC572DD233AB0045308B /* TodoListApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21BBE20D2DE3AB930050B61F /* Resources */ = {
+		21FACC562DD233AB0045308B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +139,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21BBE20B2DE3AB930050B61F /* Sources */ = {
+		21FACC542DD233AB0045308B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +149,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		21BBE21B2DE3AB950050B61F /* Debug */ = {
+		21FACC642DD233AD0045308B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		21BBE21C2DE3AB950050B61F /* Release */ = {
+		21FACC652DD233AD0045308B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,15 +268,15 @@
 			};
 			name = Release;
 		};
-		21BBE21E2DE3AB950050B61F /* Debug */ = {
+		21FACC672DD233AD0045308B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TodoTutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = F2XRRR7JT3;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoListApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KG7KGUSDY9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -265,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Anders-Jensen.TodoTutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anders-Jensen.TodoListApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -273,15 +297,15 @@
 			};
 			name = Debug;
 		};
-		21BBE21F2DE3AB950050B61F /* Release */ = {
+		21FACC682DD233AD0045308B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TodoTutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = F2XRRR7JT3;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoListApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KG7KGUSDY9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Anders-Jensen.TodoTutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anders-Jensen.TodoListApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,25 +329,69 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21BBE20A2DE3AB930050B61F /* Build configuration list for PBXProject "TodoTutorial" */ = {
+		21FACC532DD233AB0045308B /* Build configuration list for PBXProject "TodoListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21BBE21B2DE3AB950050B61F /* Debug */,
-				21BBE21C2DE3AB950050B61F /* Release */,
+				21FACC642DD233AD0045308B /* Debug */,
+				21FACC652DD233AD0045308B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21BBE21D2DE3AB950050B61F /* Build configuration list for PBXNativeTarget "TodoTutorial" */ = {
+		21FACC662DD233AD0045308B /* Build configuration list for PBXNativeTarget "TodoListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21BBE21E2DE3AB950050B61F /* Debug */,
-				21BBE21F2DE3AB950050B61F /* Release */,
+				21FACC672DD233AD0045308B /* Debug */,
+				21FACC682DD233AD0045308B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21B730C42DEC733F00DE711E /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		21B730C62DEC737600DE711E /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		21B730C82DEC737600DE711E /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		21B730CA2DEC737600DE711E /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		21B730CC2DEC737600DE711E /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		21B730CE2DEC737600DE711E /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21BBE2B62DEA712B0050B61F /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 21BBE2072DE3AB930050B61F /* Project object */;
+	rootObject = 21FACC502DD233AB0045308B /* Project object */;
 }
